@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charmi's Blog ✨</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Charmi's Blog ✨
+            </div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
+
+                <button id="themeButton" class="theme-button">
+                    🌙
+                </button>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                WELCOME TO MY LITTLE CORNER OF THE INTERNET 🌷
+            </p>
+
+            <h1>
+                My Thoughts.<br>
+                My Dreams.<br>
+                <span>My Journey.</span>
+            </h1>
+
+            <p class="hero-text">
+                A place where I write about my dreams, travel,
+                AI, sports, personal growth and everything
+                that makes life beautiful.
+            </p>
+
+            <a href="#blogs" class="main-button">
+                Explore My Blogs →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section id="about" class="about">
+
+        <div class="about-container">
+
+            <div class="about-image">
+                🌸
+            </div>
+
+            <div class="about-content">
+
+                <p class="section-small">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    Hi, I'm Charmi! 💗
+                </h2>
+
+                <p>
+                    I'm a student who loves dreaming big and
+                    turning those dreams into reality.
+                </p>
+
+                <p>
+                    I'm interested in Artificial Intelligence,
+                    technology, sports, travelling and
+                    discovering new experiences.
+                </p>
+
+                <p>
+                    This blog is my little digital diary where
+                    I can document my journey, thoughts,
+                    dreams and memories.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BLOG SECTION ================= -->
+
+    <section id="blogs" class="blogs">
+
+        <div class="section-heading">
+
+            <p class="section-small">
+                MY WRITINGS
+            </p>
+
+            <h2>
+                Latest Blogs 📝
+            </h2>
+
+            <p>
+                Stories, dreams, experiences and thoughts
+                from my journey.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Search my blogs..."
+            >
+
+        </div>
+
+
+        <!-- BLOG CARDS -->
+
+        <div id="blogContainer" class="blog-container">
+
+            <!-- JavaScript will create blogs here -->
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= QUOTE SECTION ================= -->
+
+    <section class="quote-section">
+
+        <div class="quote">
+
+            <p>
+                "Your future is created by what you do today."
+            </p>
+
+            <span>
+                — Your Future Self ✨
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <div class="section-heading">
+
+            <p class="section-small">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Say Hello 💌
+            </h2>
+
+            <p>
+                I'd love to hear from you!
+            </p>
+
+        </div>
+
+        <div class="contact-buttons">
+
+            <a href="mailto:yourmail@example.com">
+                📧 Email Me
+            </a>
+
+            <a href="https://github.com/" target="_blank">
+                💻 GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            Made with 💗 by Charmi
+        </p>
+
+        <p>
+            © 2026 Charmi's Blog
+        </p>
+
+    </footer>
+
+
+    <!-- ================= BLOG POPUP ================= -->
+
+    <div id="blogModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close-button">
+                ✕
+            </button>
+
+            <div id="modalContent">
+                <!-- Blog content appears here -->
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
